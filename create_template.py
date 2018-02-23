@@ -33,7 +33,7 @@ pipeline_options = {
     'project': PROJECT,
     'staging_location': 'gs://' + BUCKET + '/staging',
     'runner': 'DataflowRunner',
-    'setup_file': './setup.py',
+    #'setup_file': './setup.py',
     'job_name': PROJECT + '-query',
     'temp_location': 'gs://' + BUCKET + '/temp',
     'template_location': 'gs://' + BUCKET + '/templates/' + PROJECT + '-query_tmpl'
